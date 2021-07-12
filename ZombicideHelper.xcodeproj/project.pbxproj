@@ -58,16 +58,48 @@
 		ACB0D00A25CC234500764C88 /* ZombicideHelper */ = {
 			isa = PBXGroup;
 			children = (
-				ACB0D00B25CC234500764C88 /* AppDelegate.swift */,
-				ACB0D00D25CC234500764C88 /* SceneDelegate.swift */,
-				ACB0D00F25CC234500764C88 /* ViewController.swift */,
-				ACB0D01125CC234500764C88 /* Main.storyboard */,
-				ACE9B6ED25D1C12F00BBC76C /* MainViewController.swift */,
-				ACB0D01425CC234600764C88 /* Assets.xcassets */,
-				ACB0D01625CC234600764C88 /* LaunchScreen.storyboard */,
-				ACB0D01925CC234600764C88 /* Info.plist */,
+				ACB5B421269CBB2900930915 /* SupportingFiles */,
+				ACB5B420269CBAF500930915 /* Controllers */,
+				ACB5B422269CBB4F00930915 /* Storyboard */,
+				ACB5B423269CBB7800930915 /* Resources */,
 			);
 			path = ZombicideHelper;
+			sourceTree = "<group>";
+		};
+		ACB5B420269CBAF500930915 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACE9B6ED25D1C12F00BBC76C /* MainViewController.swift */,
+				ACB0D00F25CC234500764C88 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACB5B421269CBB2900930915 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0D00B25CC234500764C88 /* AppDelegate.swift */,
+				ACB0D00D25CC234500764C88 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		ACB5B422269CBB4F00930915 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0D01125CC234500764C88 /* Main.storyboard */,
+				ACB0D01625CC234600764C88 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		ACB5B423269CBB7800930915 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0D01425CC234600764C88 /* Assets.xcassets */,
+				ACB0D01925CC234600764C88 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RWNR5M53QM;
-				INFOPLIST_FILE = ZombicideHelper/Info.plist;
+				INFOPLIST_FILE = ZombicideHelper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RWNR5M53QM;
-				INFOPLIST_FILE = ZombicideHelper/Info.plist;
+				INFOPLIST_FILE = ZombicideHelper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
